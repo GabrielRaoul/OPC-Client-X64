@@ -1,12 +1,31 @@
-OPCClientDemo/Win32/
-OPCClientToolKit/Win32/
-OPCPerformance/Win32/
-OPCClientDemo/x64/
-OPCClientToolKit/x64/
-LocalSyncWrapper/x64/
-*.user
-*.ipch
-x64/Debug/
-*.sdf
-*.opensdf
+#Ignore thumbnails created by Windows
+Thumbs.db
+#Ignore files built by Visual Studio
 *.suo
+*.user
+*.obj
+*.exe
+*.pdb
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+[Bb]in
+[Dd]ebug*/
+*.lib
+*.sbr
+obj/
+[Rr]elease*/
+_ReSharper*/
+[Tt]est[Rr]esult*
+.vs/
+#Nuget packages folder
+packages/
