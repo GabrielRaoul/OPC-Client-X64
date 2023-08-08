@@ -1,10 +1,15 @@
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32510.428
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OPCClientToolKit", "OPCClientToolKit\OPCClientToolKit.vcxproj", "{169E1B60-878B-4237-95FF-065DD5F36180}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OPCPerformance", "OPCPerformance\OPCPerformance.vcxproj", "{18DC0413-2248-469E-8E2B-1628A59A0DF8}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OPCClientDemo", "OPCClientDemo\OPCClientDemo.vcxproj", "{D8297ACF-C66B-4EC2-8837-C5A4308A63D6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{169E1B60-878B-4237-95FF-065DD5F36180} = {169E1B60-878B-4237-95FF-065DD5F36180}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LocalSyncWrapper", "LocalSyncWrapper\LocalSyncWrapper.vcxproj", "{03F51D04-7C4C-42CA-A5B9-DB6A19B1D413}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -53,5 +58,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1CA77408-3538-44FC-90C5-0B5DCAD6363F}
 	EndGlobalSection
 EndGlobal
